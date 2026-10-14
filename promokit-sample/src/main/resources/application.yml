@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: promokit-sample
+
+server:
+  port: 8080
+
+promokit:
+  default-currency: CNY
+  tenant-header: X-Tenant-Id
+  max-stack-depth: 3
+
+logging:
+  level:
+    io.github.nephets.promokit: INFO
